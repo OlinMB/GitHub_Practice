@@ -1,0 +1,123 @@
+olinda@OLIN MINGW64 ~
+$ git --ver--
+unknown option: --ver--
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+olinda@OLIN MINGW64 ~
+$ git --version--
+unknown option: --version--
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+olinda@OLIN MINGW64 ~
+$ git --version
+git version 2.27.0.windows.1
+
+olinda@OLIN MINGW64 ~
+$ mkdir olin-repo
+
+olinda@OLIN MINGW64 ~
+$ cd olin-repo
+
+olinda@OLIN MINGW64 ~/olin-repo
+$ git init
+Initialized empty Git repository in C:/Users/olinda/olin-repo/.git/
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ touch olin.py
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ gedit olin.py
+bash: gedit: command not found
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ getit olin.py
+bash: getit: command not found
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ gedit olin.py
+bash: gedit: command not found
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ subi olin.py
+bash: subi: command not found
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ open olin.py
+bash: open: command not found
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ code olin.py
+bash: code: command not found
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ explorer olin.py
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ ls
+olin.py
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ gitadd olin.py
+bash: gitadd: command not found
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ getadd olin.py
+bash: getadd: command not found
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ git add olin.py
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   olin.py
+
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ git commit olin.py
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'olinda@OLIN.(none)')
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ git commit -m "First Commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'olinda@OLIN.(none)')
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$ ^C
+
+olinda@OLIN MINGW64 ~/olin-repo (master)
+$
